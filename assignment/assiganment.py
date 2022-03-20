@@ -112,7 +112,20 @@ for i in range(-10,10):
     if f(i) == 0:
         break
 print('while y = 0,x={qwer}'.format(qwer=(x)))
-
+zzz=int(input("pls enter your hours"))
+zxc=int(input("pls enter your rate"))
+earn=zzz*zxc
+print(earn)
+year=int(input("pls enter your year which u can live"))
+sec=year*24*60*60*365
+print('u can live {asf}'.format(asf=sec))
+import pandas as pd
+row1=pd.Series([2,4,6,8,10],index=[1,2,3,4,5])
+row2=pd.Series([3,6,9,12,15],index=[1,2,3,4,5])
+row3=pd.Series([4,8,12,16,20],index=[1,2,3,4,5])
+row4=pd.Series([5,10,15,20,25],index=[1,2,3,4,5])
+data=pd.DataFrame({" ":row1,"  ":row2,"   ":row3,"      ":row4})
+print(data)
 
 
 
