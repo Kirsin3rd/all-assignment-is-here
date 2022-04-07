@@ -32,7 +32,7 @@ print(num)
 #Explain the difference between the following data types: string, list, tuple and set
 #string means merely text which only represent some letter that have no any functional use on python ,stringed num is unable
 # to calculate, the element of list is convenient to change,also have index to extract designated element,the order of list is stable
-#while tuple has index either but it cant be duplicated. the element of set cant be duplicate either ,what s more it has no index.
+#while tuple has index either but it cant be duplicated,what s more the element of tuple is not mutable. the element of set cant be duplicate either ,what s more it has no index.
 
 
 string="I am a researcher cum teacher and I love to inspire and teach people."
