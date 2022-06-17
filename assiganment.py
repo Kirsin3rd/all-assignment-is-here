@@ -2,7 +2,7 @@ age=28
 height=189.0
 print(height)
 print(age)
-complexnum=1234.5678
+complexnum=complex(1,2)
 base=input('pls enter base of triangle:')
 height=input('pls enter height of triangle:')
 square=0.5*int(base)*int(height)
